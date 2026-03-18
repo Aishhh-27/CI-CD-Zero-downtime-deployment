@@ -1,16 +1,16 @@
 cat > README.md <<'EOF'
 # Offline Zero-Downtime CI/CD Simulation
 
-## 🎯 Objective
+##  Objective
 Demonstrate a **CI/CD pipeline with zero-downtime deployment** without relying on Docker or Kubernetes.
 
-## 💡 Project Overview
+##  Project Overview
 - Simulates multiple instances of an application (replicas)
 - Shows rolling update from v1 → v2
 - Fully offline, reproducible in any terminal
 - Suitable for resume or portfolio to show CI/CD knowledge
 
-## 🛠️ Steps
+##  Steps
 1. Run the simulation script:
 ```bash
 ./simulate_zero_downtime.sh
